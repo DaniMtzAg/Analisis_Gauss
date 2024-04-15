@@ -1,4 +1,4 @@
-function [rvar1,rvar2,error] = generate()
+function [rvar1,rvar2,stat1,stat2,error] = generate()
 
 % GENERATE Se utiliza para generar dos vectores de datos para 
 % variables aleatorias con distribución Gaussiana.
@@ -30,6 +30,8 @@ else
     error = false;
     rvar1 = m1 + sqrt(v1)*randn(1,n1);
     rvar2 = m2 + sqrt(v2)*randn(1,n2);
+    stat1 = [m1 v1 n1];
+    stat2 = [m2 v2 n2];
 end
 
 
