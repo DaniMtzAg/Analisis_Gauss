@@ -15,16 +15,16 @@ n1 = input("Capture el tamaño de la muestra para la variable 1: ");
 m2 = input("Capture la media para la variable 2: ");
 v2 = input("Capture la varianza para la variable 2: ");
 n2 = input("Capture el tamaño de la muestra para la variable 2: ");
+rvar1 = 0;
+rvar2 = 0;
+stat1 = [0 0 0];
+stat2 = [0 0 0];
 % A continuación se verificará la validez de los valores de la varianza
 if v1 <= 0 || v2 <= 0
     error = true;
-    rvar1 = 0;
-    rvar2 = 0;
     disp ("La varianza debe ser mayor que cero.")
 elseif n1 < 5 || n2 < 5
     error = true;
-    rvar1 = 0;
-    rvar2 = 0;
     disp ("El tamaño de la muestra debe ser mayor que 5.")
 else
     error = false;
