@@ -18,9 +18,13 @@ n2 = input("Capture el tamaño de la muestra para la variable 2: ");
 % A continuación se verificará la validez de los valores de la varianza
 if v1 <= 0 || v2 <= 0
     error = true;
+    rvar1 = 0;
+    rvar2 = 0;
     disp ("La varianza debe ser mayor que cero.")
 elseif n1 < 5 || n2 < 5
     error = true;
+    rvar1 = 0;
+    rvar2 = 0;
     disp ("El tamaño de la muestra debe ser mayor que 5.")
 else
     error = false;
