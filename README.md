@@ -6,10 +6,10 @@ El proyecto consiste en la generación de dos conjuntos de datos a partir de una
 | Variable | Descripción | Restricción |
 | -------- | ----------- | ----------- |
 | mu_1 | Media del conjunto del conjunto 1 | -inf < mu_1 < inf |
-| s_1 | Desviación estándar del conjunto 1 | s_1 >=0 0 |
+| s_1 | Desviación estándar del conjunto 1 | s_1 >= 0 |
 | n_1 | Tamaño del vector del conjunto 1 | n >= 5 |
 | mu_2 | Media del conjunto del conjunto 2 | -inf < mu_1 < inf |
-| s_2 | Desviación estándar del conjunto 2 | s_1 >=0 0 |
+| s_2 | Desviación estándar del conjunto 2 | s_1 >= 0 |
 | n_2 | Tamaño del vector del conjunto 2 | n >= 5 |
 ## El flujo de datos
 Para el desarrollo de proyecto se considera la integración de tres funciones:
